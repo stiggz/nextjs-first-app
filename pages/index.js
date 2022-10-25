@@ -5,18 +5,26 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>My first react / next.js app</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My first <a href="https://nextjs.org">next.js</a> app, hopefully it
-          won't be a waste of time!
+          My first <a href="https://nextjs.org">next.js</a> app
         </h1>
 
         <p className={styles.description}>
-          Step one - sign in to stackblitz.com - and get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Step one - sign in to stackblitz.com
+        </p>
+
+        <p className={styles.description}>
+          Step two - edit the main page{' '}
+          <code className={styles.code}>pages/index.js</code> and view all pages
+        </p>
+
+        <p className={styles.description}>
+          Step three - save changes, commit changes to git and then view in
+          <a href="https://vercel.com/stiggz/nextjs-first-app"> vercel.com </a>
         </p>
 
         <div className={styles.grid}>
