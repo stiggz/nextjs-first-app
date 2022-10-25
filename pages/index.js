@@ -28,17 +28,31 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/about" className={styles.card}>
             <h3>Creating new files &rarr;</h3>
             <p>
               Simply add files to the PAGES root directory with simple syntax
               like the about.js page I added to the PAGES directory - abouts
-              route is automagically set to /about
+              route is automagically set to <a href="/about">/about</a>
             </p>
           </a>
-        </div>
+       
+          <a href="/links" className={styles.card}>
+            <h3>Customizing files with data &rarr;</h3>
+            <p>
+              For a first simple task, I exported all my bookmarks to this
+              location <a href="/links">/links</a>
+            </p>
+          </a>
+        
+          <a href="/components" className={styles.card}>
+            <h3>Adding react components &rarr;</h3>
+            <p>
+              I wanted to figure out how to add components to react and next.js
+              so I created a components directory under project root and a components page under pages: <a href="/components">/components</a>
+            </p>
+          </a>
 
-        <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -70,7 +84,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://next.new" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/stiggz" target="_blank" rel="noopener noreferrer">
           Created by&nbsp;<b>stiggz</b>&nbsp;⚡️
         </a>
       </footer>
