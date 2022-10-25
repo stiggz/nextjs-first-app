@@ -10,11 +10,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome AAA to <a href="https://nextjs.org">Next.js!</a>
+          My first <a href="https://nextjs.org">next.js</a> app, hopefully it
+          won't be a waste of time!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Step one - sign in to stackblitz.com - and get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -51,7 +52,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a href="https://next.new" target="_blank" rel="noopener noreferrer">
-          Created with&nbsp;<b>next.new</b>&nbsp;⚡️
+          Created by&nbsp;<b>stiggz</b>&nbsp;⚡️
         </a>
       </footer>
     </div>
