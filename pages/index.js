@@ -29,6 +29,17 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
+            <h3>Creating new files &rarr;</h3>
+            <p>
+              Simply add files to the PAGES root directory with simple syntax
+              like the about.js page I added to the PAGES directory - abouts
+              route is automagically set to /about
+            </p>
+          </a>
+        </div>
+
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
